@@ -1,14 +1,17 @@
-name: "cat-website"
+name: "MrClean"
 navbar:
-  title: "My cats' website"
+  title: "Art Works by Marisa Tapley"
   left:
-    - text: "Home"
-      href: index.html
-  right: 
+    - text: "My Arts"
+      href: arts.html
+    - text: "Myself"
+      href: about.html
+    - text: "My Cat"
+      href: cat.html
+  right:
     - icon: fa-envelope fa-lg
-      href: mailto:<cats@catemail.com>
-    - icon: fa-github fa-lg
-      href: http://github.com/nnguyen19/
+      href: contact.html
 output:
   html_document:
-    theme: darkly
+    theme: paper
+    css: 'styles.css'
